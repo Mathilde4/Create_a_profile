@@ -1,0 +1,75 @@
+body{
+    background-color: hsl(0, 0%, 8%);
+    width: 1440px;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    justify-content: center;
+    display: flex;
+    margin: 0;
+    align-items: center;
+    height: 100vh;
+    
+}
+.container{
+    background-color: hsl(0, 0%, 12%);
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+h1{
+    font-size: 14px;
+    font-weight: 700;
+}
+.town{
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.bio{
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.links{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.btn{
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 5px;
+    display: block;
+    transition: background 0.3s;
+}
+.btn:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
+footer{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    
+}
+
+footer a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
